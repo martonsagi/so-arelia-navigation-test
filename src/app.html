@@ -1,0 +1,9 @@
+<template>
+  <router-view></router-view>
+
+  <div>
+    <button click.delegate="local()">Current tab - navigateToRoute</button> or
+    <button click.delegate="click('CaseListMap')">New tab - config.map()</button> or
+    <button click.delegate="click('CaseListAddRoute')">New tab - router.addRoute()</button>
+  </div>
+</template>
